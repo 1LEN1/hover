@@ -1,0 +1,397 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.first{
+	width: 100%;
+	height: 100vh;
+	background-color: #fffff7;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 350px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-family:sans-serif;
+}
+.stripe{
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	width: 80px;
+	height: 300px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stripe:hover{
+	transition: 1s;
+	width: 230px;
+}
+.name{
+	font-size: 25px;
+	visibility: hidden;
+	opacity: 0;
+	color: white;
+	transition: 0.5s;
+}
+.stripe:hover .name{
+	transition: 1s;
+	visibility: visible;
+	opacity: 1;
+}
+.stripe2{
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	width: 80px;
+	height: 300px;
+	transition: 2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stripe2:hover{
+	transition: 2s;
+	width: 100%;
+}
+.stripe2:hover .name{
+	transition: 1s;
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+.stripe3{
+	background-image: url(../img/3.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	width: 80px;
+	height: 300px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stripe3:hover{
+	transition: 1s;
+	width: 200px;
+}
+.stripe3:hover .name{
+	transition: 1s;
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+.stripe4{
+	background-image: url(../img/4.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	width: 80px;
+	height: 300px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stripe4:hover{
+	transition: 2s;
+	width: 100%;
+}
+.stripe4:hover .name{
+	transition: 1s;
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+.stripe5{
+	background-image: url(../img/5.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	width: 80px;
+	height: 300px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stripe5:hover{
+	transition: 1s;
+	width: 200px;
+}
+.stripe5:hover .name{
+	transition: 0.5s;
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+.second{
+	width: 100%;
+	height: 100vh;
+	background-color: #242424;
+}
+.box2{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 350px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	font-family:sans-serif;
+}
+.fon{
+	height: 300px;
+}
+.fonx{
+	height: 302px;
+}
+.st{
+	width: 80px;
+	height: 300px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.word{
+	position: absolute;
+	transform: translate(0%, -50%);
+	font-size: 25px;
+	visibility: hidden;
+	opacity: 0;
+	color: white;
+	transition: 1s;
+	transform: rotate(180deg);
+}
+#one:hover{
+	transform: 1s;
+	width: 240px;
+}
+#one:hover .word{
+	transition: 1.5s;
+	visibility: visible;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+#two:hover{
+	transition: 1s;
+	width: 500px;
+}
+#two:hover .word{
+	transition: 1.5s;
+	visibility: visible;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+#thre:hover{
+	transition: 1s;
+	width: 225px;
+}
+#thre:hover .word{
+	transition: 1.5s;
+	visibility: visible;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+#four:hover{
+	transition: 1s;
+	width: 500px;
+}
+#four:hover .word{
+	transition: 1.5s;
+	visibility: visible;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+#five:hover{
+	transition: 1s;
+	width: 200px;
+}
+#five:hover .word{
+	transition: 1.5s;
+	visibility: visible;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+@media screen and (max-width: 630px){
+	.first{
+		width: 100%;
+		height: 100vh;
+		background-color: gold;
+	}
+	.box{
+		border: solid #242424;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 400px;
+		height: 90vh;
+		display: flex;
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+		flex-direction: column;
+		font-family:sans-serif;	
+	}
+	.stripe{
+		background-image: url(../img/1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 300px auto;
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+	.stripe:hover{
+		transition: 1s;
+		width: 300px;
+		height: 360px;
+	}
+	.stripe2{
+		background-image: url(../img/2.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 300px auto;
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.stripe2:hover{
+		transition: 1s;
+		width: 300px;
+		height: 218px;
+	}
+	.stripe3{
+		background-image: url(../img/3.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 300px auto;
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.stripe3:hover{
+		transition: 1s;
+		width: 300px;
+		height: 370px;
+	}
+	.stripe4{
+		background-image: url(../img/4.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 300px auto;
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.stripe4:hover{
+		transition: 1s;
+		width: 300px;
+		height: 200px;
+	}
+	.stripe5{
+		background-image: url(../img/5.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 300px auto;
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.stripe5:hover{
+		transition: 1s;
+		width: 300px;
+		height: 400px;
+	}
+	.box2{
+		border: solid white;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 400px;
+		height: 90vh;
+		display: flex;
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+		flex-direction: column;
+		font-family:sans-serif;
+	}
+	.st{
+		width: 300px;
+		height: 80px;
+		transition: 1s;
+		}
+	#one .fon{
+		width: 300px;
+		height: 360px;
+	}
+	#one:hover{
+		width: 300px;
+		height: 360px;
+	}
+
+	#two .fon{
+		width: 300px;
+		height: 218px;
+	}
+	#two:hover{
+		width: 300px;
+		height: 218px;
+	}
+	#thre .fon{
+		width: 300px;
+		height: 370px;
+	}
+	#thre:hover{
+		width: 300px;
+		height: 370px;
+	}
+	#four .fon{
+		width: 300px;
+		height: 200px;
+	}
+	#four:hover{
+		width: 300px;
+		height: 200px;
+	}
+	#five .fon{
+		width: 300px;
+		height: 370px;
+	}
+	#five:hover{
+		width: 300px;
+		height: 374px;
+	}
+}
