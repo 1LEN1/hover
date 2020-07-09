@@ -231,7 +231,7 @@ body{
 	.first{
 		width: 100%;
 		height: 100vh;
-		background-color: gold;
+		background-color: #fffff7;
 	}
 	.box{
 		border: solid #242424;
