@@ -234,7 +234,6 @@ body{
 		background-color: #fffff7;
 	}
 	.box{
-		border: solid #242424;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -334,7 +333,6 @@ body{
 		height: 400px;
 	}
 	.box2{
-		border: solid white;
 		position: relative;
 		top: 50%;
 		left: 50%;
